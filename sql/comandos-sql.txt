@@ -1,0 +1,11 @@
+create DATABASE sistemapesquisa;
+
+use sistemapesquisa;
+
+create TABLE usuario (
+	id int AUTO_INCREMENT PRIMARY KEY,
+	nome varchar(20) NOT NULL,
+	sobrenome varchar(30) NOT NULL,
+	idade int NOT NULL,
+	cargo varchar(30) NOT NULL
+);
